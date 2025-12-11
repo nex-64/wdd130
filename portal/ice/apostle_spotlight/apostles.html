@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        #wrapper{
+            height: 770px;
+            width: 990px;
+            background: url("images/christus.webp") -253px 0px;
+            border-style: solid;
+            border-width: 5px;
+            border-radius: 20px;
+            border-color: black;
+            color: white;
+            justify-items: center;
+            background-size: cover;
+            margin: 0 auto;
+            box-shadow: 10px 10px 5px black
+        }
+        .spotlight {
+            height: 100px;
+            width: 100px;
+            border: 8px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 10px;
+            align-items: stretch;
+            transition-duration: 0.5s
+        }
+        .spotlight1 {
+            height: 125px;
+            width: 125px;
+            border: 8px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px;
+            justify-self: center;
+            transition-duration: 0.5s
+        }
+        .spotlight2 {
+            height: 150px;
+            width: 150px;
+            border: 8px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 5px;
+            transition-duration: 0.5s
+        }
+        .spotlight img{
+            width: 100px;
+            margin: 0
+        }
+        .spotlight1 img{
+            width: 125px
+        }
+        .spotlight2 img{
+            width: 150px;
+            
+        }
+        #firstpres{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            justify-content: center;
+            margin: 0
+        }
+        #twelve {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+        h1, h2{
+            margin: 10px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 100
+        }
+        h1{
+            font-size: 2.5em;
+        }
+        h2{
+            font-size: 1.75em
+        }
+        body{
+            background-color: #e8eced
+        }
+        .spotlight:hover, .spotlight1:hover, .spotlight2:hover{
+            border-color: yellow;
+            scale: 1.5;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     <div id="wrapper">
+            <h1>First Presidency</h1>
+     <div id="firstpres">
+        <div class="spotlight1"><img src="images/oaks.webp" alt="President Oaks"></div>
+        <div class="spotlight2"><img src="images/nelson.webp" alt="President Nelson"></div>
+        <div class="spotlight1"><img src="images/eyring.webp" alt="President Eyring"></div>
+     </div>
+             <h2>Quorum of the Twelve Apostles</h2>
+     <div id="twelve">
+        <div class="spotlight"><img src="images/holland.webp" alt="Elder Holland"></div>
+        <div class="spotlight"><img src="images/uchtdorf.webp" alt="Elder Uchtdorf"></div>
+        <div class="spotlight"><img src="images/bednar.webp" alt="Elder Bednar"></div>
+        <div class="spotlight"><img src="images/cook.webp" alt="Elder Cook"></div>
+        <div class="spotlight"><img src="images/christofferson.webp" alt="Elder Christofferson"></div>
+        <div class="spotlight"><img src="images/anderson.webp" alt="Elder Anderson"></div>
+        <div class="spotlight"><img src="images/rasband.webp" alt="Elder Rasband"></div>
+        <div class="spotlight"><img src="images/stevenson.webp" alt="Elder Stevenson"></div>
+        <div class="spotlight"><img src="images/renlund.webp" alt="Elder Renlund"></div>
+        <div class="spotlight"><img src="images/gong.webp" alt="Elder Gong"></div>
+        <div class="spotlight"><img src="images/soares.webp" alt="Elder Soares"></div>
+        <div class="spotlight"><img src="images/kearon.webp" alt="Elder Kearon"></div>
+     </div>
+     </div>
+</body>
+</html>
